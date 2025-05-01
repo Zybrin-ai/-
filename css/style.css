@@ -125,6 +125,7 @@ body {
 .section__about {
   background-image: url(../picture/Rectangle.jpg);
   width: 1440px;
+  height: 450px;
   margin: 0 auto;
 }
 .section__about--table {
@@ -209,6 +210,10 @@ body {
 }
 .section__registe__input-field--wide {
   height: 100%;
+}
+.section__registe__input-field--wide::placeholder{
+  position: absolute;
+  top: 0;
 }
 .section__register__checkbox-label {
   display: flex;
